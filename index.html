@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>하루스튜디오 · Haru Studio</title>
+<meta name="description" content="하루스튜디오는 모바일 게임과 응용 소프트웨어를 만드는 1인 개발 스튜디오입니다.">
+<style>
+  :root{
+    --ink:#1f2a2e; --muted:#5d6f75; --line:#e2e9ea;
+    --bg:#fbfcfc; --card:#ffffff; --accent:#2f9e94;
+  }
+  @media (prefers-color-scheme: dark){
+    :root{ --ink:#e8eeef; --muted:#9bb0b5; --line:#28353a;
+           --bg:#12191c; --card:#182125; --accent:#5fcabf; }
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; background:var(--bg); color:var(--ink);
+    font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Noto Sans KR",
+      "Malgun Gothic",Roboto,sans-serif;
+    line-height:1.7; -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:720px; margin:0 auto; padding:64px 24px 96px}
+  header{margin-bottom:56px}
+  .mark{
+    display:inline-block; font-size:13px; letter-spacing:.14em;
+    text-transform:uppercase; color:var(--accent); font-weight:700;
+  }
+  h1{font-size:34px; margin:10px 0 14px; letter-spacing:-.02em}
+  .lede{color:var(--muted); font-size:17px; margin:0; max-width:52ch}
+  section{margin-top:48px}
+  h2{
+    font-size:13px; letter-spacing:.12em; text-transform:uppercase;
+    color:var(--muted); font-weight:700; margin:0 0 16px;
+  }
+  .card{
+    background:var(--card); border:1px solid var(--line);
+    border-radius:14px; padding:8px 22px;
+  }
+  dl{margin:0}
+  .row{
+    display:flex; gap:20px; padding:14px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .row:last-child{border-bottom:0}
+  dt{flex:0 0 140px; color:var(--muted); font-size:15px; margin:0}
+  dd{margin:0; flex:1; font-size:15px; word-break:keep-all}
+  a{color:var(--accent)}
+  a:hover{text-decoration:underline}
+  footer{
+    margin-top:64px; padding-top:24px; border-top:1px solid var(--line);
+    color:var(--muted); font-size:13px;
+  }
+  @media (max-width:520px){
+    .wrap{padding:44px 20px 72px}
+    h1{font-size:27px}
+    .row{flex-direction:column; gap:4px; padding:12px 0}
+    dt{flex:none; font-size:13px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <span class="mark">Haru Studio</span>
+    <h1>하루스튜디오</h1>
+    <p class="lede">
+      모바일 게임과 응용 소프트웨어를 만드는 1인 개발 스튜디오입니다.
+      직접 기획하고 만들어 앱 마켓을 통해 이용자에게 전달합니다.
+    </p>
+  </header>
+
+  <section>
+    <h2>사업자 정보</h2>
+    <div class="card">
+      <dl>
+        <div class="row"><dt>상호</dt><dd>하루스튜디오 (Haru Studio)</dd></div>
+        <div class="row"><dt>대표자</dt><dd>강문수</dd></div>
+        <div class="row"><dt>사업자등록번호</dt><dd>586-20-02612</dd></div>
+        <div class="row"><dt>사업장 소재지</dt>
+          <dd>서울특별시 관악구 서림11길 24, 204호</dd></div>
+        <div class="row"><dt>업태 / 종목</dt>
+          <dd>정보통신업 / 응용 소프트웨어 개발 및 공급업</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <h2>연락처</h2>
+    <div class="card">
+      <dl>
+        <div class="row"><dt>이메일</dt>
+          <dd><a href="mailto:gmsgmso@gmail.com">gmsgmso@gmail.com</a></dd></div>
+        <div class="row"><dt>전화</dt><dd>010-5101-4704</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <section>
+    <h2>개인정보 처리방침</h2>
+    <div class="card">
+      <dl>
+        <div class="row"><dt>Cube Build Challenge</dt>
+          <dd><a href="https://kangmunsu.github.io/privacy-policy/cube-build-challenge/"
+                 rel="noopener">처리방침 보기</a></dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <footer>
+    © 2026 하루스튜디오 · Haru Studio
+  </footer>
+
+</div>
+</body>
+</html>
