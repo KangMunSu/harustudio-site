@@ -1,0 +1,10 @@
+{
+  "schemaVersion": 1,
+  "enabled": true,
+  "startupEnabled": true,
+  "bannerEnabled": true,
+  "nativeEnabled": true,
+  "minIntervalMinutes": 10,
+  "maxShowsPerDay": 5,
+  "minimumSessionSeconds": 0
+}
